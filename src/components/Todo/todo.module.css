@@ -1,0 +1,40 @@
+.wrapper {
+  background-color: teal;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 0;
+  padding: 5px;
+}
+
+.inputItem {
+  flex-grow: 2;
+  margin: 5px;
+  line-height: 20px;
+}
+
+.inputButton {
+  margin: 5px;
+  background-color: white;
+  border-radius: 4px;
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.listItem {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  font-size: 1rem;
+  text-align: left;
+  margin: 5px;
+}
